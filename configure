@@ -7,3 +7,9 @@ svn_path=$(which svn) || { echo 'subversion is not installed. Please install sub
 mkdir -p build
 cd build
 qmake ../CoSVN-GUI.pro -r -spec linux-g++ CONFIG+=release
+qmake_res=$(qmake ../CoSVN-GUI.pro -r -spec linux-g++ CONFIG+=release) || { echo 'qmake failed.'; exit 1; }
+echo "Configured successfully."
+echo "Run: "
+echo "    cd build"
+echo "    make"
+
