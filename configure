@@ -1,6 +1,9 @@
 qt_ver=$(qmake --version) || { echo 'QT is not installed. Please install QT.' ; exit 1; }
 echo "Detected $qt_ver."
 
+meld_path=$(which meld) || { echo 'meld is not installed. Please install meld.' ; exit 1; }
+svn_path=$(which svn) || { echo 'subversion is not installed. Please install subversion.' ; exit 1; }
+
 mkdir -p build
 cd build
 qmake ../CoSVN-GUI.pro -r -spec linux-g++ CONFIG+=release
