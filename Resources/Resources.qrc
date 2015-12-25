@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/Icons">
+        <file>ok.png</file>
+        <file>edited.png</file>
+        <file>folder-ok.png</file>
+        <file>folder-edited.png</file>
+        <file>TheCostel.png</file>
+    </qresource>
+</RCC>
