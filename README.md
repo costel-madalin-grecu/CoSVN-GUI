@@ -7,7 +7,9 @@ The project uses QT for graphical user interface and subversion tool for accessi
 
 	THE STORY OF THE PROJECT
 
-	I created this project because I wasn't able to find a tool to satisfy my needs. In my daily activity, I do allot of code-review, watch history, how differences and none of tools I found for Ubuntu 15 was good enough for me. So I decided to create my own tool. And, after few sleepless nights I created ... something. Is not perfect, is  not complete, but it works and satisfied my needs. So I decided to share it. 
+	I created this project because I wasn't able to find a tool to satisfy my needs. In my daily activity, I do allot of code-review, watch history, 
+show differences and none of tools I found for Ubuntu 15 was good enough for me. So I decided to create my own tool. And, after few sleepless nights I 
+created ... something. Is not perfect, is  not complete, but it works and satisfied my needs. So I decided to share it. 
 
 
 	HOW TO BUILD
